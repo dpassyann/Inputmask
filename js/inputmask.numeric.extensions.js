@@ -253,7 +253,7 @@
                 }
 
                 if (processValue.charAt(0) === opts.radixPoint && opts.radixPoint !== "" && opts.numericInput !== true) {
-                    processValue = "0" + processValue;
+                    processValue = "";
                 }
 
                 if (processValue !== "") {
